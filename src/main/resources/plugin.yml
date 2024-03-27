@@ -1,0 +1,4 @@
+name: trollGUI
+version: '${project.version}'
+main: org.plugin.TrollGUI
+api-version: '1.18'
