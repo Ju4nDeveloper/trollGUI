@@ -39,7 +39,7 @@ public class InventoryListener implements Listener {
         org.bukkit.inventory.Inventory inv = Bukkit.createInventory(null, 54, MessageUtils.color(messages.getString("Messages.playerInventoryName")));
         int i = 0;
         for (Player player1 : Bukkit.getOnlinePlayers()) {
-            if (player.getName().equals(player.getName())){
+            if (!player.getName().equals(player.getName())){
                 ItemStack cabeza = XMaterial.PLAYER_HEAD.parseItem();
                 SkullMeta meta = (SkullMeta) cabeza.getItemMeta();
                 meta.setOwner(player.getName());
