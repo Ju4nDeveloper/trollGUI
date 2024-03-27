@@ -1,0 +1,7 @@
+Messages:
+   playerInventoryName: "&e[&e&lTrollGUI&e]"
+   trollsInventoryName: "&e[&e&lTrollGUI&e] %player%"
+   trollCreepers: "&a[&2&lTroll Creepers&a]"
+   trollCreeperslore:
+   - "&7Spawnea 4 creepers alrededor del jugador"
+   - "&7que lo haran asustar bastante"

@@ -1,11 +1,11 @@
-package org.plugin.commands;
+package me.juan.troll.commands;
 
+import me.juan.troll.TrollGUI;
+import me.juan.troll.listener.InventoryListener;
+import me.juan.troll.utils.MessageUtils;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.plugin.TrollGUI;
-import org.plugin.listener.InventoryListener;
-import org.plugin.utils.MessageUtils;
 
 public class Command implements CommandExecutor {
     private final TrollGUI plugin;

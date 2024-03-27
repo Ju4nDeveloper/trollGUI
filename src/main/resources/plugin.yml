@@ -1,4 +1,8 @@
 name: trollGUI
-version: '${project.version}'
-main: org.plugin.TrollGUI
+version: 1.0
+main: me.juan.troll.TrollGUI
 api-version: '1.18'
+
+commands:
+  troll:
+    description: This is the command of TrollGUI
